@@ -1,0 +1,11 @@
+.footer {
+        background: $bg-color-700;
+        border-radius: 0 0 2px 2px;
+
+		&__text {
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 12px;
+		}
+}
+

@@ -1,0 +1,30 @@
+.shop {
+
+    &__categories {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: -5px;
+    }
+    &-category {
+        cursor: pointer;
+        color: $font-color-900;
+        background-color: $bg-color-700;
+        padding: 10px 15px;
+        border-radius: 2px;
+        margin: 5px;
+        transition: all 0.15s ease;
+    }
+    &-category--active {
+        background-color: $accent-color-800;
+        color: $font-color-700;
+    }
+    
+    &-category:hover + .shop-category--active  {
+        background-color: $accent-color-800;
+        color: $font-color-700;
+    }
+
+
+}
